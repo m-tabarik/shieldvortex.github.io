@@ -10,7 +10,7 @@ def fuzz_web_application(file_path, target_url, allowed_status_codes):
     """
 
     headings = ["URI", "Status Code"]
-    col_widths = [max(len(heading), 8) for heading in headings]
+    col_widths = [max(len(heading), 8) for heading in headings]  
     uri_col_width = col_widths[0]
     status_code_width = 10  # Fixed width for the status code column
 
