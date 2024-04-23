@@ -6,7 +6,7 @@ from urllib.parse import urlparse
  
 def fuzz_web_application(file_path, target_url, allowed_status_codes):
     banner = r"""
-                       
+                         
     """
 
     headings = ["URI", "Status Code"]
